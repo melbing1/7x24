@@ -1,0 +1,86 @@
+service: when-will-i-coldstart
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+  profile: linkevi
+
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "lambda:InvokeFunction"
+      Resource: "arn:aws:lambda:*:*:function:${self:service}-${self:provider.stage}-system-under-test-*"
+    - Effect: "Allow"
+      Action:
+        - "cloudwatch:PutMetricData"
+      Resource: "*"
+
+functions:
+  system-under-test-128:
+    handler: functions/system-under-test.handler
+    memorySize: 128
+
+  system-under-test-256:
+    handler: functions/system-under-test.handler
+    memorySize: 256
+
+  system-under-test-512:
+    handler: functions/system-under-test.handler
+    memorySize: 512
+
+  system-under-test-1024:
+    handler: functions/system-under-test.handler
+    memorySize: 1024
+
+  system-under-test-1152:
+    handler: functions/system-under-test.handler
+    memorySize: 1152
+
+  system-under-test-1280:
+    handler: functions/system-under-test.handler
+    memorySize: 1280
+
+  system-under-test-1408:
+    handler: functions/system-under-test.handler
+    memorySize: 1408
+
+  system-under-test-1536:
+    handler: functions/system-under-test.handler
+    memorySize: 1536
+
+  system-under-test-1792:
+    handler: functions/system-under-test.handler
+    memorySize: 1792
+
+  system-under-test-1856:
+    handler: functions/system-under-test.handler
+    memorySize: 1856
+
+  system-under-test-2048:
+    handler: functions/system-under-test.handler
+    memorySize: 2048
+
+  system-under-test-2240:
+    handler: functions/system-under-test.handler
+    memorySize: 2240
+
+  system-under-test-2432:
+    handler: functions/system-under-test.handler
+    memorySize: 2432
+
+  system-under-test-2624:
+    handler: functions/system-under-test.handler
+    memorySize: 2624
+
+  system-under-test-2816:
+    handler: functions/system-under-test.handler
+    memorySize: 2816
+
+  system-under-test-3008:
+    handler: functions/system-under-test.handler
+    memorySize: 3008
+
+  find-idle-timeout:
+    handler: functions/find-idle-timeout.handler
