@@ -11,15 +11,17 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.72.0",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.0",
-    "bunyan": "^1.8.12",
+    "bunyan": "^1.8.15",
     "co": "^4.6.0",
     "csv-write-stream": "^2.0.0",
     "dotenv": "^6.2.0",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "serverless": "^1.15.3"
+    "serverless": "^1.15.3",
+    "sls-dev-tools": "^1.1.11"
   },
   "prettier": {
     "semi": false
