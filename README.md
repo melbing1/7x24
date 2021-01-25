@@ -1,5 +1,8 @@
 Modified src for the lambda-coldstart-time 
 
+**Do not make this repo public until the ARN number has been stripped from stepFunction.js**
+
+--------------
 # lambda-coldstart-time
 Experiment to find out how long your function would need to be idle for for it to be recycled
 
