@@ -10,7 +10,8 @@ provider:
     - Effect: "Allow"
       Action:
         - "lambda:InvokeFunction"
-      Resource: "arn:aws:lambda:*:*:function:${self:service}-${self:provider.stage}-system-under-test-*"
+      Resource: "arn:aws:iam::340585199380:role/service-role/StepFunctions-benchmarkMachine-role-79e23869"
+      #     Resource: "arn:aws:lambda:*:*:function:${self:service}-${self:provider.stage}-system-under-test-*"
     - Effect: "Allow"
       Action:
         - "cloudwatch:PutMetricData"
