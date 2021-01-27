@@ -1,6 +1,6 @@
 "use strict"
 const AWS = require("aws-sdk")
-const cloudwatch = new AWS.CloudWatch({ region: "us-west-2" })
+const cloudwatch = new AWS.CloudWatch({ region: "us-east-2" })
 
 let isColdstart = false
 
