@@ -198,6 +198,7 @@ async function main() {
   })
   log.debug("filtered results", results)
   writeCsv({ path: "/tmp/out.csv", data: results })
+  writeCsv({ path: "/home/matt/out.csv", data: results })
   log.info("done")
 }
 
