@@ -1,0 +1,6 @@
+Change the region string in the following files
+
+* analysis/run.js
+* analysis/gatherResults.js
+* functions/system-under-test.js
+* serverless.yml
