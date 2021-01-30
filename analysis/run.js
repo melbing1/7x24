@@ -1,6 +1,6 @@
 "use strict"
 const AWS = require("aws-sdk")
-AWS.config.update({region:'us-east-1'});
+AWS.config.update({region:'us-west-1'});
 const sf = new AWS.StepFunctions()
 const bunyan = require("bunyan")
 const log = bunyan.createLogger({ name: "app", level: "debug" })
