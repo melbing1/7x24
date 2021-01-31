@@ -17,6 +17,11 @@
 #      REVISION:  ---
 #===============================================================================
 
+# Credit: https://stackoverflow.com/questions/1585170/how-to-find-and-replace-all-occurrences-of-a-string-recursively-in-a-directory-t
+
 set -o nounset                                  # Treat unset variables as an error
 
-grep -rl '$2' ./ | xargs sed -i 's/$2/$2/g'
+#grep -rl '$2' ./ | xargs sed -i 's/$2/$2/g'
+
+#or do this:
+find . \( ! -regex '.*/\..*' \) -type f | xargs sed -i 's/$1/$2/g'
