@@ -9,7 +9,7 @@ const moment = require("moment")
 const util = require("util")
 
 let region = process.env.AWS_DEFAULT_REGION
-AWS.config.update({region:'us-west-2'});
+AWS.config.update({region:'us-east-1'});
 console.log({ config: AWS.config })
 const cloudwatch = new AWS.CloudWatch()
 const stepfunctions = new AWS.StepFunctions()
@@ -70,6 +70,7 @@ async function getStepFunctions({ stateMachineArn, filter }) {
   })
 }
 
+//This function does not work correctly, hence the reason we only received start and stop times
 function getStartStop({ functions }) {
   log.debug({ ctx: "getStartStop", functions })
   let { startDate: start, stopDate: stop } = functions[0]
@@ -198,7 +199,6 @@ async function main() {
   })
   log.debug("filtered results", results)
   writeCsv({ path: "/tmp/out.csv", data: results })
-  writeCsv({ path: "/home/matt/out.csv", data: results })
   log.info("done")
 }
 
