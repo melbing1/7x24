@@ -73,10 +73,18 @@ async function getStepFunctions({ stateMachineArn, filter }) {
 //This function does not work correctly, hence the reason we only received start and stop times
 function getStartStop({ functions }) {
   log.debug({ ctx: "getStartStop", functions })
-  let { startDate: start, stopDate: stop } = functions[0]
-  start = moment(start)
-  stop = moment(stop)
+  let iterations = 0;
+  let start = _date()
+  let stop = _date()
   functions.forEach(f => {
+    if (iterations === 0){
+      start = f.startDate;
+      stop = f.stopDate;
+      //let { startDate: start, stopDate: stop } = functions[0]
+      start = moment(start)
+      stop = moment(stop)
+    }
+    iterations += 1;
     let { startDate, stopDate } = f
     startDate = _date(startDate)
     stopDate = _date(stopDate)
