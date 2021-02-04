@@ -117,7 +117,7 @@ async function collectDataV2({ startTime, endTime }) {
   return res
 }
 
-// collect data
+// collect data -> Parse data here
 function collectData({ StartTime, EndTime, MetricDataQueries }) {
   log.debug({ ctx: "collectData", StartTime, EndTime })
   MetricDataQueries = MetricDataQueries.map(p => {
