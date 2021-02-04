@@ -1,3 +1,5 @@
+Make sure you run `npm install` when you clone the repo to install the node dependencies (there are many)
+
 Modified src for the lambda-coldstart-time 
 
 **Do not make this repo public until the ARN number has been stripped from stepFunction.js**
