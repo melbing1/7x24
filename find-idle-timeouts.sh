@@ -8,8 +8,7 @@ for sz in "${mem_sizes[@]}"
 do
 	echo "$sz MB container (note that the value furthest to the right should be the most accurate timeout)"
 	echo ""
-	#grep -B 5 -A 1 "$sz" $1 | xargs echo
-	grep -B 5 -A 1 "$sz" $1 | grep -A 1 '"coldstarts": "9"' | xargs echo
+	grep -B 5 -A 1 "$sz" $1 | grep -A 1 '"coldstarts": "9"' | xargs echo 
 	echo "====================="
 done
 
