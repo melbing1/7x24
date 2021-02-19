@@ -5,6 +5,5 @@ package-lock.json
 
 # Serverless directories
 .serverless
-.env
 .autoenv.zsh
 .DS_Store
