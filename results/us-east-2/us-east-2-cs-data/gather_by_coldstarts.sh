@@ -8,6 +8,6 @@ for cs in 1 2 3 4 5 6 7 8 9
 do
 	for sz in "${mem_sizes[@]}"
 	do
-		cat us-east-2.json | grep -A 3 -B 3 "\"coldstarts\": \"$cs\"" | grep -A 3 -B 3 "\"mem\": $sz" | grep "interval" | xargs echo > coldstarts_${sz}_${cs}
+		cat $1 | grep -A 3 -B 3 "\"coldstarts\": \"$cs\"" | grep -A 3 -B 3 "\"mem\": $sz" | grep "interval" | xargs echo > coldstarts_${sz}_${cs}
 	done
 done
