@@ -9,7 +9,7 @@ const moment = require("moment")
 const util = require("util")
 
 let region = process.env.AWS_DEFAULT_REGION
-AWS.config.update({region:'us-east-2'});
+AWS.config.update({region:'us-east-1'});
 console.log({ config: AWS.config })
 const cloudwatch = new AWS.CloudWatch()
 const stepfunctions = new AWS.StepFunctions()
