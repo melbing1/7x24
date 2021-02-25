@@ -32,7 +32,7 @@
 {coldstarts: 2, interval: 1320, mem: 2816 -- {coldstarts: 2, interval: 1140, mem: 2816 -- {coldstarts: 2, interval: 960, mem: 2816 -- {coldstarts: 2, interval: 780, mem: 2816
 {coldstarts: 2, interval: 1320, mem: 3008 -- {coldstarts: 2, interval: 1140, mem: 3008 -- {coldstarts: 2, interval: 960, mem: 3008 -- {coldstarts: 2, interval: 780, mem: 3008
 
-{coldstarts: 3, interval: 1320, mem: 128 -- {coldstarts: 3, interval: 1200, mem: 1280 -- {coldstarts: 3, interval: 1140, mem: 128 -- {coldstarts: 3, interval: 1080, mem: 1280 -- {coldstarts: 3, interval: 960, mem: 128 -- { ts: 2021-02-20 04:45:51.746, coldstarts: 3, interval: 960, mem: 1280 -- { ts: 2021-02-20 03:22:29.319, coldstarts: 3, interval: 780, mem: 128 -- { ts: 2021-02-20 03:22:28.448, coldstarts: 3, interval: 780, mem: 1280
+{coldstarts: 3, interval: 1320, mem: 128 -- {coldstarts: 3, interval: 1200, mem: 1280 -- {coldstarts: 3, interval: 1140, mem: 128 -- {coldstarts: 3, interval: 1080, mem: 1280 -- {coldstarts: 3, interval: 960, mem: 128 -- {coldstarts: 3, interval: 960, mem: 1280 -- {coldstarts: 3, interval: 780, mem: 128 -- {coldstarts: 3, interval: 780, mem: 1280
 {coldstarts: 3, interval: 1320, mem: 256 -- {coldstarts: 3, interval: 1140, mem: 256 -- {coldstarts: 3, interval: 960, mem: 256 -- {coldstarts: 3, interval: 780, mem: 256
 {coldstarts: 3, interval: 1320, mem: 512 -- {coldstarts: 3, interval: 1140, mem: 512 -- {coldstarts: 3, interval: 960, mem: 512 -- {coldstarts: 3, interval: 780, mem: 512
 {coldstarts: 3, interval: 1320, mem: 1024 -- {coldstarts: 3, interval: 1140, mem: 1024 -- {coldstarts: 3, interval: 960, mem: 1024 -- {coldstarts: 3, interval: 780, mem: 1024
@@ -49,7 +49,7 @@
 {coldstarts: 3, interval: 1320, mem: 2816 -- {coldstarts: 3, interval: 1140, mem: 2816 -- {coldstarts: 3, interval: 960, mem: 2816 -- {coldstarts: 3, interval: 780, mem: 2816
 {coldstarts: 3, interval: 1320, mem: 3008 -- {coldstarts: 3, interval: 1140, mem: 3008 -- {coldstarts: 3, interval: 960, mem: 3008 -- {coldstarts: 3, interval: 780, mem: 3008
 
-{coldstarts: 4, interval: 1320, mem: 128 -- {coldstarts: 4, interval: 1200, mem: 1280 -- {coldstarts: 4, interval: 1140, mem: 128 -- {coldstarts: 4, interval: 1080, mem: 1280 -- {coldstarts: 4, interval: 960, mem: 128 -- { ts: 2021-02-20 05:01:52.825, coldstarts: 4, interval: 960, mem: 1280 -- { ts: 2021-02-20 03:35:31.111, coldstarts: 4, interval: 780, mem: 128 -- { ts: 2021-02-20 03:35:30.222, coldstarts: 4, interval: 780, mem: 1280
+{coldstarts: 4, interval: 1320, mem: 128 -- {coldstarts: 4, interval: 1200, mem: 1280 -- {coldstarts: 4, interval: 1140, mem: 128 -- {coldstarts: 4, interval: 1080, mem: 1280 -- {coldstarts: 4, interval: 960, mem: 128 -- {coldstarts: 4, interval: 960, mem: 1280 -- {coldstarts: 4, interval: 780, mem: 128 -- {coldstarts: 4, interval: 780, mem: 1280
 {coldstarts: 4, interval: 1320, mem: 256 -- {coldstarts: 4, interval: 1140, mem: 256 -- {coldstarts: 4, interval: 960, mem: 256 -- {coldstarts: 4, interval: 780, mem: 256
 {coldstarts: 4, interval: 1320, mem: 512 -- {coldstarts: 4, interval: 1140, mem: 512 -- {coldstarts: 4, interval: 960, mem: 512 -- {coldstarts: 4, interval: 780, mem: 512
 {coldstarts: 4, interval: 1320, mem: 1024 -- {coldstarts: 4, interval: 1140, mem: 1024 -- {coldstarts: 4, interval: 960, mem: 1024 -- {coldstarts: 4, interval: 780, mem: 1024
