@@ -1,0 +1,178 @@
+[2021-02-20T01:43:51.983Z]  INFO: app/1850 on Computer.local: start
+[2021-02-20T01:43:51.984Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-128\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-128-02202021T0143"
+    }
+[2021-02-20T01:43:52.003Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-256\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-256-02202021T0143"
+    }
+[2021-02-20T01:43:52.004Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-512\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-512-02202021T0143"
+    }
+[2021-02-20T01:43:52.005Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-1024\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-1024-02202021T0143"
+    }
+[2021-02-20T01:43:52.005Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-1152\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-1152-02202021T0143"
+    }
+[2021-02-20T01:43:52.006Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-1280\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-1280-02202021T0143"
+    }
+[2021-02-20T01:43:52.007Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-1408\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-1408-02202021T0143"
+    }
+[2021-02-20T01:43:52.008Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-1536\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-1536-02202021T0143"
+    }
+[2021-02-20T01:43:52.008Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-1792\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-1792-02202021T0143"
+    }
+[2021-02-20T01:43:52.009Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-1856\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-1856-02202021T0143"
+    }
+[2021-02-20T01:43:52.010Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-2048\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-2048-02202021T0143"
+    }
+[2021-02-20T01:43:52.010Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-2240\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-2240-02202021T0143"
+    }
+[2021-02-20T01:43:52.011Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-2432\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-2432-02202021T0143"
+    }
+[2021-02-20T01:43:52.012Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-2624\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-2624-02202021T0143"
+    }
+[2021-02-20T01:43:52.012Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-2816\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-2816-02202021T0143"
+    }
+[2021-02-20T01:43:52.013Z]  INFO: app/1850 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-west-1:340585199380:stateMachine:MyStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-3008\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-3008-02202021T0143"
+    }
+[2021-02-20T01:43:52.014Z]  INFO: app/1850 on Computer.local: done
+[2021-02-20T01:43:52.533Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-512-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.450Z"
+    }
+[2021-02-20T01:43:52.534Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-1408-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.455Z"
+    }
+[2021-02-20T01:43:52.534Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-3008-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.448Z"
+    }
+[2021-02-20T01:43:52.535Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-1024-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.454Z"
+    }
+[2021-02-20T01:43:52.535Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-128-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.438Z"
+    }
+[2021-02-20T01:43:52.536Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-2432-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.450Z"
+    }
+[2021-02-20T01:43:52.536Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-2240-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.436Z"
+    }
+[2021-02-20T01:43:52.537Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-1152-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.443Z"
+    }
+[2021-02-20T01:43:52.538Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-1792-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.446Z"
+    }
+[2021-02-20T01:43:52.538Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-2048-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.440Z"
+    }
+[2021-02-20T01:43:52.538Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-1280-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.441Z"
+    }
+[2021-02-20T01:43:52.539Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-2624-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.443Z"
+    }
+[2021-02-20T01:43:52.539Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-1536-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.454Z"
+    }
+[2021-02-20T01:43:52.540Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-256-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.454Z"
+    }
+[2021-02-20T01:43:52.540Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-2816-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.459Z"
+    }
+[2021-02-20T01:43:52.541Z]  INFO: app/1850 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-west-1:340585199380:execution:MyStateMachine:when-will-i-coldstart-dev-system-under-test-1856-02202021T0143",
+      "startDate": "2021-02-20T01:43:52.463Z"
+    }
