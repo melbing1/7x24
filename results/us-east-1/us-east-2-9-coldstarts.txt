@@ -1,0 +1,64 @@
+128 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2340, -- coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2100, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860, -- coldstarts: 9, interval: 1860,
+=====================
+256 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+512 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+1024 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2400, -- coldstarts: 9, interval: 2520, -- coldstarts: 9, interval: 2340, -- coldstarts: 9, interval: 1980,
+=====================
+1152 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 1920, -- coldstarts: 9, interval: 1980, -- coldstarts: 9, interval: 1860,
+=====================
+1280 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+1408 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+1536 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2220, -- coldstarts: 9, interval: 2100, -- coldstarts: 9, interval: 1920,
+=====================
+1792 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+1856 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+2048 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 1860, -- coldstarts: 9, interval: 1920,
+=====================
+2240 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+2432 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+2624 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+2816 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
+3008 MB container (note that the value furthest to the right should be the most accurate timeout)
+
+coldstarts: 9, interval: 2160, -- coldstarts: 9, interval: 2040, -- coldstarts: 9, interval: 1860,
+=====================
