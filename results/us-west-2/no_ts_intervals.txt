@@ -1,0 +1,170 @@
+1 COLDSTART
+{coldstarts: 1, interval: 1320, mem: 128 } -- {coldstarts: 1, interval: 1200, mem: 1280} -- {coldstarts: 1, interval: 1140, mem: 128} -- {coldstarts: 1, interval: 1080, mem: 1280} {coldstarts: 1, interval: 960, mem: 1280}  {coldstarts: 1, interval: 960, mem: 128} {coldstarts: 1, interval: 780, mem: 128}
+{coldstarts: 1, interval: 1320, mem: 256 } -- {coldstarts: 1, interval: 1140, mem: 256 } -- {coldstarts: 1, interval: 960, mem: 256 } -- { ts: 2021-02-20 02:56:25.377, coldstarts: 1, interval: 780, mem: 256}
+{coldstarts: 1, interval: 1320, mem: 512 } -- {coldstarts: 1, interval: 1140, mem: 512 } -- {coldstarts: 1, interval: 960, mem: 512 } -- { ts: 2021-02-20 02:56:24.983, coldstarts: 1, interval: 780, mem: 512}
+{coldstarts: 1, interval: 1320, mem: 1024} -- {coldstarts: 1, interval: 1140, mem: 1024} -- {coldstarts: 1, interval: 960, mem: 1024}
+{coldstarts: 1, interval: 1320, mem: 1152} -- {coldstarts: 1, interval: 1140, mem: 1152} -- {coldstarts: 1, interval: 960, mem: 1152} -- { ts: 2021-02-20 02:56:24.979, coldstarts: 1, interval: 780, mem: 1152}
+{coldstarts: 1, interval: 1200, mem: 1280} -- {coldstarts: 1, interval: 1080, mem: 1280} -- {coldstarts: 1, interval: 960, mem: 1280}
+{coldstarts: 1, interval: 1320, mem: 1408} -- {coldstarts: 1, interval: 1140, mem: 1408} -- {coldstarts: 1, interval: 960, mem: 1408}
+{coldstarts: 1, interval: 1320, mem: 1536} -- {coldstarts: 1, interval: 1140, mem: 1536} -- {coldstarts: 1, interval: 960, mem: 1536}
+{coldstarts: 1, interval: 1320, mem: 1792} -- {coldstarts: 1, interval: 1140, mem: 1792} -- {coldstarts: 1, interval: 960, mem: 1792} -- { ts: 2021-02-20 02:56:25.312, coldstarts: 1, interval: 780, mem: 1792}
+{coldstarts: 1, interval: 1320, mem: 1856} -- {coldstarts: 1, interval: 1140, mem: 1856} -- {coldstarts: 1, interval: 960, mem: 1856}
+{coldstarts: 1, interval: 1320, mem: 2048} -- {coldstarts: 1, interval: 1140, mem: 2048} -- {coldstarts: 1, interval: 960, mem: 2048}
+{coldstarts: 1, interval: 1320, mem: 2240} -- {coldstarts: 1, interval: 1140, mem: 2240} -- {coldstarts: 1, interval: 960, mem: 2240}
+{coldstarts: 1, interval: 1320, mem: 2432} -- {coldstarts: 1, interval: 1140, mem: 2432} -- {coldstarts: 1, interval: 960, mem: 2432}
+{coldstarts: 1, interval: 1320, mem: 2624} -- {coldstarts: 1, interval: 1140, mem: 2624} -- {coldstarts: 1, interval: 960, mem: 2624}
+{coldstarts: 1, interval: 1320, mem: 2816} -- {coldstarts: 1, interval: 1140, mem: 2816} -- {coldstarts: 1, interval: 960, mem: 2816} -- { ts: 2021-02-20 02:56:25.034, coldstarts: 1, interval: 780, mem: 2816}
+{coldstarts: 1, interval: 1320, mem: 3008} -- {coldstarts: 1, interval: 1140, mem: 3008} -- {coldstarts: 1, interval: 960, mem: 3008}
+
+2 COLDSTARTS
+
+{coldstarts: 2, interval: 1320, mem: 128 } -- {coldstarts: 2, interval: 1200, mem: 1280 -- {coldstarts: 2, interval: 1140, mem: 128 -- {coldstarts: 2, interval: 1080, mem: 1280} -- {coldstarts: 2, interval: 960, mem: 128} -- {coldstarts: 2, interval: 960, mem: 1280} -- {coldstarts: 2, interval: 780, mem: 128} -- {coldstarts: 2, interval: 780, mem: 1280}
+{coldstarts: 2, interval: 1320, mem: 256 } -- {coldstarts: 2, interval: 1140, mem: 256 } -- {coldstarts: 2, interval: 960, mem: 256 } -- {coldstarts: 2, interval: 780, mem: 256 }
+{coldstarts: 2, interval: 1320, mem: 512 } -- {coldstarts: 2, interval: 1140, mem: 512 } -- {coldstarts: 2, interval: 960, mem: 512 } -- {coldstarts: 2, interval: 780, mem: 512 }
+{coldstarts: 2, interval: 1320, mem: 1024} -- {coldstarts: 2, interval: 1140, mem: 1024} -- {coldstarts: 2, interval: 960, mem: 1024} -- {coldstarts: 2, interval: 780, mem: 1024}
+{coldstarts: 2, interval: 1320, mem: 1152} -- {coldstarts: 2, interval: 1140, mem: 1152} -- {coldstarts: 2, interval: 960, mem: 1152} -- {coldstarts: 2, interval: 780, mem: 1152}
+{coldstarts: 2, interval: 1200, mem: 1280} -- {coldstarts: 2, interval: 1080, mem: 1280} -- {coldstarts: 2, interval: 960, mem: 1280} -- {coldstarts: 2, interval: 780, mem: 1280}
+{coldstarts: 2, interval: 1320, mem: 1408} -- {coldstarts: 2, interval: 1140, mem: 1408} -- {coldstarts: 2, interval: 960, mem: 1408} -- {coldstarts: 2, interval: 780, mem: 1408}
+{coldstarts: 2, interval: 1320, mem: 1536} -- {coldstarts: 2, interval: 1140, mem: 1536} -- {coldstarts: 2, interval: 960, mem: 1536} -- {coldstarts: 2, interval: 780, mem: 1536}
+{coldstarts: 2, interval: 1320, mem: 1792} -- {coldstarts: 2, interval: 1140, mem: 1792} -- {coldstarts: 2, interval: 960, mem: 1792} -- {coldstarts: 2, interval: 780, mem: 1792}
+{coldstarts: 2, interval: 1320, mem: 1856} -- {coldstarts: 2, interval: 1140, mem: 1856} -- {coldstarts: 2, interval: 960, mem: 1856} -- {coldstarts: 2, interval: 780, mem: 1856}
+{coldstarts: 2, interval: 1320, mem: 2048} -- {coldstarts: 2, interval: 1140, mem: 2048} -- {coldstarts: 2, interval: 960, mem: 2048} -- {coldstarts: 2, interval: 780, mem: 2048}
+{coldstarts: 2, interval: 1320, mem: 2240} -- {coldstarts: 2, interval: 1140, mem: 2240} -- {coldstarts: 2, interval: 960, mem: 2240} -- {coldstarts: 2, interval: 780, mem: 2240}
+{coldstarts: 2, interval: 1320, mem: 2432} -- {coldstarts: 2, interval: 1140, mem: 2432} -- {coldstarts: 2, interval: 960, mem: 2432} -- {coldstarts: 2, interval: 780, mem: 2432}
+{coldstarts: 2, interval: 1320, mem: 2624} -- {coldstarts: 2, interval: 1140, mem: 2624} -- {coldstarts: 2, interval: 960, mem: 2624} -- {coldstarts: 2, interval: 780, mem: 2624}
+{coldstarts: 2, interval: 1320, mem: 2816} -- {coldstarts: 2, interval: 1140, mem: 2816} -- {coldstarts: 2, interval: 960, mem: 2816} -- {coldstarts: 2, interval: 780, mem: 2816}
+{coldstarts: 2, interval: 1320, mem: 3008} -- {coldstarts: 2, interval: 1140, mem: 3008} -- {coldstarts: 2, interval: 960, mem: 3008} -- {coldstarts: 2, interval: 780, mem: 3008}
+
+3 COLDSTARTS
+
+{coldstarts: 3, interval: 1320, mem: 128 } -- {coldstarts: 3, interval: 1200, mem: 1280} -- {coldstarts: 3, interval: 1140, mem: 128 } -- {coldstarts: 3, interval: 1080, mem: 1280} -- {coldstarts: 3, interval: 960, mem: 128 } -- {coldstarts: 3, interval: 960, mem: 1280} -- {coldstarts: 3, interval: 780, mem: 128 } -- {coldstarts: 3, interval: 780, mem: 1280}
+{coldstarts: 3, interval: 1320, mem: 256 -- {coldstarts: 3, interval: 1140, mem: 256  } -- {coldstarts: 3, interval: 960, mem: 256 } -- {coldstarts: 3, interval: 780, mem: 256 }
+{coldstarts: 3, interval: 1320, mem: 512 -- {coldstarts: 3, interval: 1140, mem: 512  } -- {coldstarts: 3, interval: 960, mem: 512 } -- {coldstarts: 3, interval: 780, mem: 512 }
+{coldstarts: 3, interval: 1320, mem: 1024 -- {coldstarts: 3, interval: 1140, mem: 1024} -- {coldstarts: 3, interval: 960, mem: 1024} -- {coldstarts: 3, interval: 780, mem: 1024}
+{coldstarts: 3, interval: 1320, mem: 1152 -- {coldstarts: 3, interval: 1140, mem: 1152} -- {coldstarts: 3, interval: 960, mem: 1152} -- {coldstarts: 3, interval: 780, mem: 1152}
+{coldstarts: 3, interval: 1200, mem: 1280 -- {coldstarts: 3, interval: 1080, mem: 1280} -- {coldstarts: 3, interval: 960, mem: 1280} -- {coldstarts: 3, interval: 780, mem: 1280}
+{coldstarts: 3, interval: 1320, mem: 1408 -- {coldstarts: 3, interval: 1140, mem: 1408} -- {coldstarts: 3, interval: 960, mem: 1408} -- {coldstarts: 3, interval: 780, mem: 1408}
+{coldstarts: 3, interval: 1320, mem: 1536 -- {coldstarts: 3, interval: 1140, mem: 1536} -- {coldstarts: 3, interval: 960, mem: 1536} -- {coldstarts: 3, interval: 780, mem: 1536}
+{coldstarts: 3, interval: 1320, mem: 1792 -- {coldstarts: 3, interval: 1140, mem: 1792} -- {coldstarts: 3, interval: 960, mem: 1792} -- {coldstarts: 3, interval: 780, mem: 1792}
+{coldstarts: 3, interval: 1320, mem: 1856 -- {coldstarts: 3, interval: 1140, mem: 1856} -- {coldstarts: 3, interval: 960, mem: 1856} -- {coldstarts: 3, interval: 780, mem: 1856}
+{coldstarts: 3, interval: 1320, mem: 2048 -- {coldstarts: 3, interval: 1140, mem: 2048} -- {coldstarts: 3, interval: 960, mem: 2048} -- {coldstarts: 3, interval: 780, mem: 2048}
+{coldstarts: 3, interval: 1320, mem: 2240 -- {coldstarts: 3, interval: 1140, mem: 2240} -- {coldstarts: 3, interval: 960, mem: 2240} -- {coldstarts: 3, interval: 780, mem: 2240}
+{coldstarts: 3, interval: 1320, mem: 2432 -- {coldstarts: 3, interval: 1140, mem: 2432} -- {coldstarts: 3, interval: 960, mem: 2432} -- {coldstarts: 3, interval: 780, mem: 2432}
+{coldstarts: 3, interval: 1320, mem: 2624 -- {coldstarts: 3, interval: 1140, mem: 2624} -- {coldstarts: 3, interval: 960, mem: 2624} -- {coldstarts: 3, interval: 780, mem: 2624}
+{coldstarts: 3, interval: 1320, mem: 2816 -- {coldstarts: 3, interval: 1140, mem: 2816} -- {coldstarts: 3, interval: 960, mem: 2816} -- {coldstarts: 3, interval: 780, mem: 2816}
+{coldstarts: 3, interval: 1320, mem: 3008 -- {coldstarts: 3, interval: 1140, mem: 3008} -- {coldstarts: 3, interval: 960, mem: 3008} -- {coldstarts: 3, interval: 780, mem: 3008}
+
+4 COLD STARTS
+
+{coldstarts: 4, interval: 1320, mem: 128 } -- {coldstarts: 4, interval: 1200, mem: 1280 -- {coldstarts: 4, interval: 1140, mem: 128 -- {coldstarts: 4, interval: 1080, mem: 1280 -- {coldstarts: 4, interval: 960, mem: 128 -- {coldstarts: 4, interval: 960, mem: 1280 -- {coldstarts: 4, interval: 780, mem: 128 -- {coldstarts: 4, interval: 780, mem: 1280}
+{coldstarts: 4, interval: 1320, mem: 256 -- {coldstarts: 4, interval: 1140, mem: 256 } -- {coldstarts: 4, interval: 960, mem: 256  } -- {coldstarts: 4, interval: 780, mem: 256 }
+{coldstarts: 4, interval: 1320, mem: 512 -- {coldstarts: 4, interval: 1140, mem: 512 } -- {coldstarts: 4, interval: 960, mem: 512  } -- {coldstarts: 4, interval: 780, mem: 512 }
+{coldstarts: 4, interval: 1320, mem: 1024 -- {coldstarts: 4, interval: 1140, mem: 1024} -- {coldstarts: 4, interval: 960, mem: 1024} -- {coldstarts: 4, interval: 780, mem: 1024}
+{coldstarts: 4, interval: 1320, mem: 1152 -- {coldstarts: 4, interval: 1140, mem: 1152} -- {coldstarts: 4, interval: 960, mem: 1152} -- {coldstarts: 4, interval: 780, mem: 1152}
+{coldstarts: 4, interval: 1200, mem: 1280 -- {coldstarts: 4, interval: 1080, mem: 1280} -- {coldstarts: 4, interval: 960, mem: 1280} -- {coldstarts: 4, interval: 780, mem: 1280}
+{coldstarts: 4, interval: 1320, mem: 1408 -- {coldstarts: 4, interval: 1140, mem: 1408} -- {coldstarts: 4, interval: 960, mem: 1408} -- {coldstarts: 4, interval: 780, mem: 1408}
+{coldstarts: 4, interval: 1320, mem: 1536 -- {coldstarts: 4, interval: 1140, mem: 1536} -- {coldstarts: 4, interval: 960, mem: 1536} -- {coldstarts: 4, interval: 780, mem: 1536}
+{coldstarts: 4, interval: 1320, mem: 1792 -- {coldstarts: 4, interval: 1140, mem: 1792} -- {coldstarts: 4, interval: 960, mem: 1792} -- {coldstarts: 4, interval: 780, mem: 1792}
+{coldstarts: 4, interval: 1320, mem: 1856 -- {coldstarts: 4, interval: 1140, mem: 1856} -- {coldstarts: 4, interval: 960, mem: 1856} -- {coldstarts: 4, interval: 780, mem: 1856}
+{coldstarts: 4, interval: 1320, mem: 2048 -- {coldstarts: 4, interval: 1140, mem: 2048} -- {coldstarts: 4, interval: 960, mem: 2048} -- {coldstarts: 4, interval: 780, mem: 2048}
+{coldstarts: 4, interval: 1320, mem: 2240 -- {coldstarts: 4, interval: 1140, mem: 2240} -- {coldstarts: 4, interval: 960, mem: 2240} -- {coldstarts: 4, interval: 780, mem: 2240}
+{coldstarts: 4, interval: 1320, mem: 2432 -- {coldstarts: 4, interval: 1140, mem: 2432} -- {coldstarts: 4, interval: 960, mem: 2432} -- {coldstarts: 4, interval: 780, mem: 2432}
+{coldstarts: 4, interval: 1320, mem: 2624 -- {coldstarts: 4, interval: 1140, mem: 2624} -- {coldstarts: 4, interval: 960, mem: 2624} -- {coldstarts: 4, interval: 780, mem: 2624}
+{coldstarts: 4, interval: 1320, mem: 2816 -- {coldstarts: 4, interval: 1140, mem: 2816} -- {coldstarts: 4, interval: 960, mem: 2816} -- {coldstarts: 4, interval: 780, mem: 2816}
+{coldstarts: 4, interval: 1320, mem: 3008 -- {coldstarts: 4, interval: 1140, mem: 3008} -- {coldstarts: 4, interval: 960, mem: 3008} -- {coldstarts: 4, interval: 780, mem: 3008}
+
+5 COLD STARTS
+
+{coldstarts: 5, interval: 1320, mem: 128 } -- {coldstarts: 5, interval: 1200, mem: 1280} -- {coldstarts: 5, interval: 1140, mem: 128 } -- {coldstarts: 5, interval: 1080, mem: 1280} -- {coldstarts: 5, interval: 960, mem: 128 } -- {coldstarts: 5, interval: 960, mem: 1280} -- {coldstarts: 5, interval: 780, mem: 128 } -- {coldstarts: 5, interval: 780, mem: 1280}
+{coldstarts: 5, interval: 1320, mem: 256 } -- {coldstarts: 5, interval: 1140, mem: 256 -- {coldstarts: 5, interval: 960, mem: 256 -- {coldstarts: 5, interval: 780, mem: 256   }
+{coldstarts: 5, interval: 1320, mem: 512 } -- {coldstarts: 5, interval: 1140, mem: 512 -- {coldstarts: 5, interval: 960, mem: 512 -- {coldstarts: 5, interval: 780, mem: 512   }
+{coldstarts: 5, interval: 1320, mem: 1024} -- {coldstarts: 5, interval: 1140, mem: 1024 -- {coldstarts: 5, interval: 960, mem: 1024 -- {coldstarts: 5, interval: 780, mem: 1024}
+{coldstarts: 5, interval: 1320, mem: 1152} -- {coldstarts: 5, interval: 1140, mem: 1152 -- {coldstarts: 5, interval: 960, mem: 1152 -- {coldstarts: 5, interval: 780, mem: 1152}
+{coldstarts: 5, interval: 1200, mem: 1280} -- {coldstarts: 5, interval: 1080, mem: 1280 -- {coldstarts: 5, interval: 960, mem: 1280 -- {coldstarts: 5, interval: 780, mem: 1280}
+{coldstarts: 5, interval: 1320, mem: 1408} -- {coldstarts: 5, interval: 1140, mem: 1408 -- {coldstarts: 5, interval: 960, mem: 1408 -- {coldstarts: 5, interval: 780, mem: 1408}
+{coldstarts: 5, interval: 1320, mem: 1536} -- {coldstarts: 5, interval: 1140, mem: 1536 -- {coldstarts: 5, interval: 960, mem: 1536 -- {coldstarts: 5, interval: 780, mem: 1536}
+{coldstarts: 5, interval: 1320, mem: 1792} -- {coldstarts: 5, interval: 1140, mem: 1792 -- {coldstarts: 5, interval: 960, mem: 1792 -- {coldstarts: 5, interval: 780, mem: 1792}
+{coldstarts: 5, interval: 1320, mem: 1856} -- {coldstarts: 5, interval: 1140, mem: 1856 -- {coldstarts: 5, interval: 960, mem: 1856 -- {coldstarts: 5, interval: 780, mem: 1856}
+{coldstarts: 5, interval: 1320, mem: 2048} -- {coldstarts: 5, interval: 1140, mem: 2048 -- {coldstarts: 5, interval: 960, mem: 2048 -- {coldstarts: 5, interval: 780, mem: 2048}
+{coldstarts: 5, interval: 1320, mem: 2240} -- {coldstarts: 5, interval: 1140, mem: 2240 -- {coldstarts: 5, interval: 960, mem: 2240 -- {coldstarts: 5, interval: 780, mem: 2240}
+{coldstarts: 5, interval: 1320, mem: 2432} -- {coldstarts: 5, interval: 1140, mem: 2432 -- {coldstarts: 5, interval: 960, mem: 2432 -- {coldstarts: 5, interval: 780, mem: 2432}
+{coldstarts: 5, interval: 1320, mem: 2624} -- {coldstarts: 5, interval: 1140, mem: 2624 -- {coldstarts: 5, interval: 960, mem: 2624 -- {coldstarts: 5, interval: 780, mem: 2624}
+{coldstarts: 5, interval: 1320, mem: 2816} -- {coldstarts: 5, interval: 1140, mem: 2816 -- {coldstarts: 5, interval: 960, mem: 2816 -- {coldstarts: 5, interval: 780, mem: 2816}
+{coldstarts: 5, interval: 1320, mem: 3008} -- {coldstarts: 5, interval: 1140, mem: 3008 -- {coldstarts: 5, interval: 960, mem: 3008 -- {coldstarts: 5, interval: 780, mem: 3008}
+
+6 COLD STARTS
+
+{coldstarts: 6, interval: 1320, mem: 128 } -- {coldstarts: 6, interval: 1200, mem: 1280 -- {coldstarts: 6, interval: 1140, mem: 128 -- {coldstarts: 6, interval: 1080, mem: 1280 -- {coldstarts: 6, interval: 960, mem: 128 -- {coldstarts: 6, interval: 960, mem: 1280 -- {coldstarts: 6, interval: 780, mem: 128
+{coldstarts: 6, interval: 1320, mem: 256 } -- {coldstarts: 6, interval: 1140, mem: 256 } -- {coldstarts: 6, interval: 960, mem: 256 } -- {coldstarts: 6, interval: 780, mem: 256 }
+{coldstarts: 6, interval: 1320, mem: 512 } -- {coldstarts: 6, interval: 1140, mem: 512 } -- {coldstarts: 6, interval: 960, mem: 512 } -- {coldstarts: 6, interval: 780, mem: 512 }
+{coldstarts: 6, interval: 1320, mem: 1024} -- {coldstarts: 6, interval: 1140, mem: 1024} -- {coldstarts: 6, interval: 960, mem: 1024} -- {coldstarts: 6, interval: 780, mem: 1024}
+{coldstarts: 6, interval: 1320, mem: 1152} -- {coldstarts: 6, interval: 1140, mem: 1152} -- {coldstarts: 6, interval: 960, mem: 1152} -- {coldstarts: 6, interval: 780, mem: 1152}
+{coldstarts: 6, interval: 1200, mem: 1280} -- {coldstarts: 6, interval: 1080, mem: 1280} -- {coldstarts: 6, interval: 960, mem: 1280}
+{coldstarts: 6, interval: 1320, mem: 1408} -- {coldstarts: 6, interval: 1140, mem: 1408} -- {coldstarts: 6, interval: 960, mem: 1408} -- {coldstarts: 6, interval: 780, mem: 1408}
+{coldstarts: 6, interval: 1320, mem: 1536} -- {coldstarts: 6, interval: 1140, mem: 1536} -- {coldstarts: 6, interval: 960, mem: 1536} -- {coldstarts: 6, interval: 780, mem: 1536}
+{coldstarts: 6, interval: 1320, mem: 1792} -- {coldstarts: 6, interval: 1140, mem: 1792} -- {coldstarts: 6, interval: 960, mem: 1792} -- {coldstarts: 6, interval: 780, mem: 1792}
+{coldstarts: 6, interval: 1320, mem: 1856} -- {coldstarts: 6, interval: 1140, mem: 1856} -- {coldstarts: 6, interval: 960, mem: 1856} -- {coldstarts: 6, interval: 780, mem: 1856}
+{coldstarts: 6, interval: 1320, mem: 2048} -- {coldstarts: 6, interval: 1140, mem: 2048} -- {coldstarts: 6, interval: 960, mem: 2048} -- {coldstarts: 6, interval: 780, mem: 2048}
+{coldstarts: 6, interval: 1320, mem: 2240} -- {coldstarts: 6, interval: 1140, mem: 2240} -- {coldstarts: 6, interval: 960, mem: 2240} -- {coldstarts: 6, interval: 780, mem: 2240}
+{coldstarts: 6, interval: 1320, mem: 2432} -- {coldstarts: 6, interval: 1140, mem: 2432} -- {coldstarts: 6, interval: 960, mem: 2432} -- {coldstarts: 6, interval: 780, mem: 2432}
+{coldstarts: 6, interval: 1320, mem: 2624} -- {coldstarts: 6, interval: 1140, mem: 2624} -- {coldstarts: 6, interval: 960, mem: 2624} -- {coldstarts: 6, interval: 780, mem: 2624}
+{coldstarts: 6, interval: 1320, mem: 2816} -- {coldstarts: 6, interval: 1140, mem: 2816} -- {coldstarts: 6, interval: 960, mem: 2816} -- {coldstarts: 6, interval: 780, mem: 2816}
+{coldstarts: 6, interval: 1320, mem: 3008} -- {coldstarts: 6, interval: 1140, mem: 3008} -- {coldstarts: 6, interval: 960, mem: 3008} -- {coldstarts: 6, interval: 780, mem: 3008}
+
+7 COLD STARTS
+
+{coldstarts: 7, interval: 1320, mem: 128 } -- {coldstarts: 7, interval: 1200, mem: 1280} -- {coldstarts: 7, interval: 1140, mem: 128 -- {coldstarts: 7, interval: 1080, mem: 1280 -- {coldstarts: 7, interval: 960, mem: 128 -- {coldstarts: 7, interval: 960, mem: 1280
+{coldstarts: 7, interval: 1320, mem: 256 } -- {coldstarts: 7, interval: 1140, mem: 256 } -- {coldstarts: 7, interval: 960, mem: 256
+{coldstarts: 7, interval: 1320, mem: 512 } -- {coldstarts: 7, interval: 1140, mem: 512 } -- {coldstarts: 7, interval: 960, mem: 512
+{coldstarts: 7, interval: 1320, mem: 1024} -- {coldstarts: 7, interval: 1140, mem: 1024} -- {coldstarts: 7, interval: 960, mem: 1024
+{coldstarts: 7, interval: 1320, mem: 1152} -- {coldstarts: 7, interval: 1140, mem: 1152} -- {coldstarts: 7, interval: 960, mem: 1152
+{coldstarts: 7, interval: 1200, mem: 1280} -- {coldstarts: 7, interval: 1080, mem: 1280} -- {coldstarts: 7, interval: 960, mem: 1280
+{coldstarts: 7, interval: 1320, mem: 1408} -- {coldstarts: 7, interval: 1140, mem: 1408} -- {coldstarts: 7, interval: 960, mem: 1408
+{coldstarts: 7, interval: 1320, mem: 1536} -- {coldstarts: 7, interval: 1140, mem: 1536} -- {coldstarts: 7, interval: 960, mem: 1536
+{coldstarts: 7, interval: 1320, mem: 1792} -- {coldstarts: 7, interval: 1140, mem: 1792} -- {coldstarts: 7, interval: 960, mem: 1792
+{coldstarts: 7, interval: 1320, mem: 1856} -- {coldstarts: 7, interval: 1140, mem: 1856} -- {coldstarts: 7, interval: 960, mem: 1856
+{coldstarts: 7, interval: 1320, mem: 2048} -- {coldstarts: 7, interval: 1140, mem: 2048} -- {coldstarts: 7, interval: 960, mem: 2048
+{coldstarts: 7, interval: 1320, mem: 2240} -- {coldstarts: 7, interval: 1140, mem: 2240} -- {coldstarts: 7, interval: 960, mem: 2240
+{coldstarts: 7, interval: 1320, mem: 2432} -- {coldstarts: 7, interval: 1140, mem: 2432} -- {coldstarts: 7, interval: 960, mem: 2432
+{coldstarts: 7, interval: 1320, mem: 2624} -- {coldstarts: 7, interval: 1140, mem: 2624} -- {coldstarts: 7, interval: 960, mem: 2624
+{coldstarts: 7, interval: 1320, mem: 2816} -- {coldstarts: 7, interval: 1140, mem: 2816} -- {coldstarts: 7, interval: 960, mem: 2816
+{coldstarts: 7, interval: 1320, mem: 3008} -- {coldstarts: 7, interval: 1140, mem: 3008} -- {coldstarts: 7, interval: 960, mem: 3008
+
+8 COLD STARTS
+
+{coldstarts: 8, interval: 1320, mem: 128 } -- {coldstarts: 8, interval: 1200, mem: 1280}-- {coldstarts: 8, interval: 1140, mem: 128 } -- {coldstarts: 8, interval: 1080, mem: 1280 -- {coldstarts: 8, interval: 960, mem: 128
+{coldstarts: 8, interval: 1320, mem: 256 } -- {coldstarts: 8, interval: 1140, mem: 256 }-- {coldstarts: 8, interval: 960, mem: 256  }
+{coldstarts: 8, interval: 1320, mem: 512 } -- {coldstarts: 8, interval: 1140, mem: 512 }-- {coldstarts: 8, interval: 960, mem: 512  }
+{coldstarts: 8, interval: 1320, mem: 1024} -- {coldstarts: 8, interval: 1140, mem: 1024} -- {coldstarts: 8, interval: 960, mem: 1024}
+{coldstarts: 8, interval: 1320, mem: 1152} -- {coldstarts: 8, interval: 1140, mem: 1152} -- {coldstarts: 8, interval: 960, mem: 1152}
+{coldstarts: 8, interval: 1200, mem: 1280} -- {coldstarts: 8, interval: 1080, mem: 1280}
+{coldstarts: 8, interval: 1320, mem: 1408} -- {coldstarts: 8, interval: 1140, mem: 1408} -- {coldstarts: 8, interval: 960, mem: 1408}
+{coldstarts: 8, interval: 1320, mem: 1536} -- {coldstarts: 8, interval: 1140, mem: 1536} -- {coldstarts: 8, interval: 960, mem: 1536}
+{coldstarts: 8, interval: 1320, mem: 1792} -- {coldstarts: 8, interval: 1140, mem: 1792} -- {coldstarts: 8, interval: 960, mem: 1792}
+{coldstarts: 8, interval: 1320, mem: 1856} -- {coldstarts: 8, interval: 1140, mem: 1856} -- {coldstarts: 8, interval: 960, mem: 1856}
+{coldstarts: 8, interval: 1320, mem: 2048} -- {coldstarts: 8, interval: 1140, mem: 2048} -- {coldstarts: 8, interval: 960, mem: 2048}
+{coldstarts: 8, interval: 1320, mem: 2240} -- {coldstarts: 8, interval: 1140, mem: 2240} -- {coldstarts: 8, interval: 960, mem: 2240}
+{coldstarts: 8, interval: 1320, mem: 2432} -- {coldstarts: 8, interval: 1140, mem: 2432} -- {coldstarts: 8, interval: 960, mem: 2432}
+{coldstarts: 8, interval: 1320, mem: 2624} -- {coldstarts: 8, interval: 1140, mem: 2624} -- {coldstarts: 8, interval: 960, mem: 2624}
+{coldstarts: 8, interval: 1320, mem: 2816} -- {coldstarts: 8, interval: 1140, mem: 2816} -- {coldstarts: 8, interval: 960, mem: 2816}
+{coldstarts: 8, interval: 1320, mem: 3008} -- {coldstarts: 8, interval: 1140, mem: 3008} -- {coldstarts: 8, interval: 960, mem: 3008}
+
+9 COLD STARTS
+
+{coldstarts: 9, interval: 1320, mem: 128 } -- {coldstarts: 9, interval: 1200, mem: 1280} -- {coldstarts: 9, interval: 1140, mem: 128 } -- {coldstarts: 9, interval: 1080, mem: 1280}
+{coldstarts: 9, interval: 1320, mem: 256 -- {coldstarts: 9, interval: 1140, mem: 256  }
+{coldstarts: 9, interval: 1320, mem: 512 -- {coldstarts: 9, interval: 1140, mem: 512  }
+{coldstarts: 9, interval: 1320, mem: 1024 -- {coldstarts: 9, interval: 1140, mem: 1024}
+{coldstarts: 9, interval: 1320, mem: 1152 -- {coldstarts: 9, interval: 1140, mem: 1152}
+{coldstarts: 9, interval: 1200, mem: 1280 -- {coldstarts: 9, interval: 1080, mem: 1280}
+{coldstarts: 9, interval: 1320, mem: 1408 -- {coldstarts: 9, interval: 1140, mem: 1408}
+{coldstarts: 9, interval: 1320, mem: 1536 -- {coldstarts: 9, interval: 1140, mem: 1536}
+{coldstarts: 9, interval: 1320, mem: 1792 -- {coldstarts: 9, interval: 1140, mem: 1792}
+{coldstarts: 9, interval: 1320, mem: 1856 -- {coldstarts: 9, interval: 1140, mem: 1856}
+{coldstarts: 9, interval: 1320, mem: 2048 -- {coldstarts: 9, interval: 1140, mem: 2048}
+{coldstarts: 9, interval: 1320, mem: 2240 -- {coldstarts: 9, interval: 1140, mem: 2240}
+{coldstarts: 9, interval: 1320, mem: 2432 -- {coldstarts: 9, interval: 1140, mem: 2432}
+{coldstarts: 9, interval: 1320, mem: 2624 -- {coldstarts: 9, interval: 1140, mem: 2624}
+{coldstarts: 9, interval: 1320, mem: 2816 -- {coldstarts: 9, interval: 1140, mem: 2816}
+{coldstarts: 9, interval: 1320, mem: 3008 -- {coldstarts: 9, interval: 1140, mem: 3008}
+

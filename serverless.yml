@@ -4,15 +4,16 @@ provider:
   name: aws
   runtime: nodejs12.x
   stage: dev
-  region: us-west-1
+  region: us-west-2
 
   iamRoleStatements:
     - Effect: "Allow"
       Action:
         - "lambda:InvokeFunction"
-      Resource: "arn:aws:lambda:*:*:function:${self:service}-${self:provider.stage}-system-under-test-*"
-            #Resource: arn:aws:iam::340585199380:role/service-role/StepFunctions-benchmarkMachine-role-81cf677e
-            #Resource:  
+      Resource:
+        "arn:aws:lambda:*:*:function:${self:service}-${self:provider.stage}-system-under-test-*"
+        #Resource: arn:aws:iam::340585199380:role/service-role/StepFunctions-benchmarkMachine-role-81cf677e
+        #Resource:
     - Effect: "Allow"
       Action:
         - "cloudwatch:PutMetricData"
