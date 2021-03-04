@@ -1,0 +1,13 @@
+[2021-03-02T18:47:02.292Z]  INFO: app/7672 on Computer.local: start
+[2021-03-02T18:47:02.295Z]  INFO: app/7672 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-128\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-128-03022021T1847"
+    }
+[2021-03-02T18:47:02.319Z]  INFO: app/7672 on Computer.local: done
+[2021-03-02T18:47:02.522Z]  INFO: app/7672 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-128-03022021T1847",
+      "startDate": "2021-03-02T18:47:02.494Z"
+    }

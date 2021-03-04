@@ -1,3 +1,5 @@
+//This is the original run.js file for rollback if other regions have longer timeouts
+
 "use strict"
 const AWS = require("aws-sdk")
 AWS.config.update({region:'us-east-1'});
@@ -25,7 +27,7 @@ async function main() {
       stateMachineArn: env("STATE_MACHINE_ARN"),
       input: JSON.stringify({
         target: lambdaName,
-        interval: 100,
+        interval: 600,
         coldstarts: 0
       }),
       name: sfName

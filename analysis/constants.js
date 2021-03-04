@@ -18,6 +18,7 @@ require("dotenv").config()
   "3008"
 ] */
 
+//Define a subset of mem sizes to run
 const MEM_SIZES = [
 	"128"
 ]

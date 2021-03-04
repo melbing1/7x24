@@ -43,8 +43,8 @@ module.exports.handler = co.wrap(function*(input, context, callback) {
   } else {
     console.log("not a coldstart, extending interval by 1 min")
 
-    output.interval = input.interval + 60
-    output.coldstarts = 0
+    output.interval = input.interval + 60 //If a coldstart is NOT triggered, add one minute and try again
+    output.coldstarts = 0  //Reset cold-start counter
 
     callback(null, output)
   }
