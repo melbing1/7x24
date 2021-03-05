@@ -41,9 +41,9 @@ module.exports.handler = co.wrap(function*(input, context, callback) {
 
     callback(null, output)
   } else {
-    //console.log("not a coldstart, extending interval by 1 min")
-	console.log("coldstart found, reduce interval by 1 min")
-    output.interval = input.interval - 60 //subtract for the lower bound (ensure that you are starting with a very high interval in find-idle-event.json)
+    console.log("not a coldstart, extending interval by 1 min")
+
+    output.interval = input.interval - 60 //Add 60 for finding the upper bound (ensure that you are starting with a low interval) and subtract for the lower bound (ensure that you are starting with a very high interval)
     output.coldstarts = 0  //Reset cold-start counter
 
     callback(null, output)
