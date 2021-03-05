@@ -1,5 +1,5 @@
 {
   "target": "when-will-i-coldstart-dev-system-under-test-128",
-  "interval": 100, 
+  "interval": 10000, 
   "coldstarts": 0
 }
