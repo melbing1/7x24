@@ -34,7 +34,7 @@ module.exports.handler = co.wrap(function*(input, context, callback) {
   console.log(res)
   console.log(`isColdstart: ${res.isColdstart}`)
 
-  if (res.isColdstart) {
+  if (!res.isColdstart) {
     console.log("triggered coldstart")
 
     output.coldstarts = (output.coldstarts || 0) + 1
