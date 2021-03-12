@@ -25,7 +25,7 @@ async function main() {
       stateMachineArn: env("STATE_MACHINE_ARN"),
       input: JSON.stringify({
         target: lambdaName,
-        interval: 10800, //Set this high and then change system-under-test.js to decrease the time for the lower bound
+        interval: 600, //Set this high and then change system-under-test.js to decrease the time for the lower bound
         coldstarts: 0
       }),
       name: sfName
