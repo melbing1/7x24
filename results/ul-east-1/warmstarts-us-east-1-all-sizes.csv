@@ -1,0 +1,401 @@
+timestamp,message
+1615567117546,"2021-03-12T16:38:37.544Z	f599d330-38f4-489f-b837-f9b824744591	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-3008',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567117782,"2021-03-12T16:38:37.676Z	f599d330-38f4-489f-b837-f9b824744591	INFO	triggered coldstart
+"
+1615567117837,"2021-03-12T16:38:37.787Z	36f21dfb-a1db-4c99-97ea-30d18b952d5b	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1856',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567117948,"2021-03-12T16:38:37.947Z	36f21dfb-a1db-4c99-97ea-30d18b952d5b	INFO	triggered coldstart
+"
+1615567118291,"2021-03-12T16:38:38.288Z	e9a3aee2-b74c-4ce5-b016-25086493250a	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2624',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567118334,"2021-03-12T16:38:38.333Z	e9a3aee2-b74c-4ce5-b016-25086493250a	INFO	triggered coldstart
+"
+1615567118495,"2021-03-12T16:38:38.495Z	b5ee8e57-7edc-4b3c-828f-c2975e7c5d7b	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2432',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567119094,"2021-03-12T16:38:38.553Z	b5ee8e57-7edc-4b3c-828f-c2975e7c5d7b	INFO	triggered coldstart
+"
+1615567119097,"2021-03-12T16:38:39.097Z	e0402e01-a835-4390-bf11-8e0c79a5c193	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2240',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567119147,"2021-03-12T16:38:39.147Z	e0402e01-a835-4390-bf11-8e0c79a5c193	INFO	triggered coldstart
+"
+1615567119173,"2021-03-12T16:38:39.168Z	7ce8d4bf-c19b-4232-a2c5-5331e6538b30	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-256',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567119259,"2021-03-12T16:38:39.259Z	7ce8d4bf-c19b-4232-a2c5-5331e6538b30	INFO	triggered coldstart
+"
+1615567119359,"2021-03-12T16:38:39.358Z	08018305-4c21-4317-b9d5-b27f7de87090	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2048',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567119470,"2021-03-12T16:38:39.470Z	08018305-4c21-4317-b9d5-b27f7de87090	INFO	triggered coldstart
+"
+1615567119488,"2021-03-12T16:38:39.487Z	bbd67f30-e058-44bb-ba2b-bd36b5e46bd3	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1152',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567119549,"2021-03-12T16:38:39.549Z	bbd67f30-e058-44bb-ba2b-bd36b5e46bd3	INFO	triggered coldstart
+"
+1615567120186,"2021-03-12T16:38:40.186Z	21c1891f-1e6a-493e-8bef-ba89ca459f93	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-512',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567120274,"2021-03-12T16:38:40.274Z	21c1891f-1e6a-493e-8bef-ba89ca459f93	INFO	triggered coldstart
+"
+1615567122740,"2021-03-12T16:38:42.737Z	7bdeaad6-a2fc-43c5-a3da-1536355ee861	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-128',
+  interval: 360,
+  coldstarts: 1
+}
+"
+1615567123032,"2021-03-12T16:38:43.032Z	7bdeaad6-a2fc-43c5-a3da-1536355ee861	INFO	triggered coldstart
+"
+1615567476862,"2021-03-12T16:44:36.861Z	f10ea7d0-2ca1-46b3-8699-b133f6de9baa	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1408',
+  interval: 360,
+  coldstarts: 2
+}
+"
+1615567476963,"2021-03-12T16:44:36.963Z	f10ea7d0-2ca1-46b3-8699-b133f6de9baa	INFO	triggered coldstart
+"
+1615567476971,"2021-03-12T16:44:36.970Z	d4753fff-18b0-4f08-bc6c-8aea69e307f7	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1792',
+  interval: 360,
+  coldstarts: 2
+}
+"
+1615567477008,"2021-03-12T16:44:37.008Z	d4753fff-18b0-4f08-bc6c-8aea69e307f7	INFO	triggered coldstart
+"
+1615567477116,"2021-03-12T16:44:37.113Z	91652744-3ef8-4048-9cc0-1ef35af96d0b	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1280',
+  interval: 360,
+  coldstarts: 2
+}
+"
+1615567477153,"2021-03-12T16:44:37.153Z	91652744-3ef8-4048-9cc0-1ef35af96d0b	INFO	triggered coldstart
+"
+1615567477502,"2021-03-12T16:44:37.502Z	d58394c2-e158-4bfc-81c0-79ee1db602ef	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1024',
+  interval: 360,
+  coldstarts: 2
+}
+"
+1615567477639,"2021-03-12T16:44:37.638Z	d58394c2-e158-4bfc-81c0-79ee1db602ef	INFO	triggered coldstart
+"
+1615567477914,"2021-03-12T16:44:37.914Z	5731e163-d677-4b43-a505-3f6c0b9d293e	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-3008',
+  interval: 360,
+  coldstarts: 2
+}
+"
+1615567477950,"2021-03-12T16:44:37.950Z	5731e163-d677-4b43-a505-3f6c0b9d293e	INFO	triggered coldstart
+"
+1615567478102,"2021-03-12T16:44:38.099Z	a5551238-4cbb-4ed4-b0d9-679967c8635a	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1536',
+  interval: 360,
+  coldstarts: 2
+}
+"
+1615567478216,"2021-03-12T16:44:38.216Z	a5551238-4cbb-4ed4-b0d9-679967c8635a	INFO	coldstart found, reduce interval by 1 min
+"
+1615567837212,"2021-03-12T16:50:37.212Z	542c01fa-8f75-4c28-b985-7ccc114ccd05	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1792',
+  interval: 360,
+  coldstarts: 3
+}
+"
+1615567837265,"2021-03-12T16:50:37.265Z	542c01fa-8f75-4c28-b985-7ccc114ccd05	INFO	triggered coldstart
+"
+1615567837357,"2021-03-12T16:50:37.356Z	9084fec0-56d6-406a-bfa4-6a39f78806c4	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1280',
+  interval: 360,
+  coldstarts: 3
+}
+"
+1615567837420,"2021-03-12T16:50:37.420Z	9084fec0-56d6-406a-bfa4-6a39f78806c4	INFO	triggered coldstart
+"
+1615567837844,"2021-03-12T16:50:37.844Z	4da32ec4-50b4-42bf-99f1-999e892fe670	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1024',
+  interval: 360,
+  coldstarts: 3
+}
+"
+1615567837903,"2021-03-12T16:50:37.903Z	4da32ec4-50b4-42bf-99f1-999e892fe670	INFO	triggered coldstart
+"
+1615567838145,"2021-03-12T16:50:38.144Z	2c5c4503-066a-4422-ac62-09ee53fe5f17	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-3008',
+  interval: 360,
+  coldstarts: 3
+}
+"
+1615567838209,"2021-03-12T16:50:38.209Z	2c5c4503-066a-4422-ac62-09ee53fe5f17	INFO	triggered coldstart
+"
+1615567838463,"2021-03-12T16:50:38.460Z	3e3d3b3a-e07b-4a1c-a971-c07e46eab63c	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2816',
+  interval: 360,
+  coldstarts: 3
+}
+"
+1615567838527,"2021-03-12T16:50:38.527Z	3e3d3b3a-e07b-4a1c-a971-c07e46eab63c	INFO	triggered coldstart
+"
+1615567839953,"2021-03-12T16:50:39.945Z	2365faf6-b954-4e90-b7ec-c0d0f794fddf	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2048',
+  interval: 360,
+  coldstarts: 3
+}
+"
+1615567839992,"2021-03-12T16:50:39.992Z	2365faf6-b954-4e90-b7ec-c0d0f794fddf	INFO	triggered coldstart
+"
+1615568197473,"2021-03-12T16:56:37.469Z	6158c988-2719-48a4-ba5a-3475b1fe0a26	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1792',
+  interval: 360,
+  coldstarts: 4
+}
+"
+1615568197521,"2021-03-12T16:56:37.521Z	6158c988-2719-48a4-ba5a-3475b1fe0a26	INFO	triggered coldstart
+"
+1615568197705,"2021-03-12T16:56:37.705Z	d0e53e2a-40a4-41b0-b7e7-b1a6bc1756cb	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1280',
+  interval: 360,
+  coldstarts: 4
+}
+"
+1615568197755,"2021-03-12T16:56:37.755Z	d0e53e2a-40a4-41b0-b7e7-b1a6bc1756cb	INFO	triggered coldstart
+"
+1615568198104,"2021-03-12T16:56:38.104Z	41001292-760a-48eb-8ab2-12688de44505	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1024',
+  interval: 360,
+  coldstarts: 4
+}
+"
+1615568198406,"2021-03-12T16:56:38.194Z	41001292-760a-48eb-8ab2-12688de44505	INFO	triggered coldstart
+"
+1615568198410,"2021-03-12T16:56:38.410Z	b6f907df-7cf2-4086-be71-7fb40404254e	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-3008',
+  interval: 360,
+  coldstarts: 4
+}
+"
+1615568198463,"2021-03-12T16:56:38.463Z	b6f907df-7cf2-4086-be71-7fb40404254e	INFO	triggered coldstart
+"
+1615568198739,"2021-03-12T16:56:38.732Z	57ba4f62-6c73-4e85-a0d3-d4d53818080e	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2816',
+  interval: 360,
+  coldstarts: 4
+}
+"
+1615568198782,"2021-03-12T16:56:38.781Z	57ba4f62-6c73-4e85-a0d3-d4d53818080e	INFO	triggered coldstart
+"
+1615568200198,"2021-03-12T16:56:40.197Z	732887ce-b30b-4667-931b-fc919072b487	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2048',
+  interval: 360,
+  coldstarts: 4
+}
+"
+1615568200240,"2021-03-12T16:56:40.240Z	732887ce-b30b-4667-931b-fc919072b487	INFO	triggered coldstart
+"
+1615568200270,"2021-03-12T16:56:40.267Z	07cce1f2-dba9-4a8a-81e6-9acef342a92c	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1152',
+  interval: 360,
+  coldstarts: 4
+}
+"
+1615568200313,"2021-03-12T16:56:40.311Z	07cce1f2-dba9-4a8a-81e6-9acef342a92c	INFO	triggered coldstart
+"
+1615568204038,"2021-03-12T16:56:44.038Z	7541127f-e7ba-4919-88ee-f0b2942a3747	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-128',
+  interval: 360,
+  coldstarts: 4
+}
+"
+1615568204078,"2021-03-12T16:56:44.078Z	7541127f-e7ba-4919-88ee-f0b2942a3747	INFO	triggered coldstart
+"
+1615568207137,"2021-03-12T16:56:47.134Z	11d1db62-db54-43c0-999f-fc17dd13dea8	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-512',
+  interval: 360,
+  coldstarts: 4
+}
+"
+1615568207176,"2021-03-12T16:56:47.171Z	11d1db62-db54-43c0-999f-fc17dd13dea8	INFO	triggered coldstart
+"
+1615568378984,"2021-03-12T16:59:38.984Z	1224aee6-b233-4057-a6a7-339f097faad8	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1536',
+  interval: 300,
+  coldstarts: 2
+}
+"
+1615568379035,"2021-03-12T16:59:39.035Z	1224aee6-b233-4057-a6a7-339f097faad8	INFO	triggered coldstart
+"
+1615568557696,"2021-03-12T17:02:37.695Z	4058183d-1a70-4940-ae51-a61c07214a17	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1408',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568557735,"2021-03-12T17:02:37.735Z	4058183d-1a70-4940-ae51-a61c07214a17	INFO	triggered coldstart
+"
+1615568557744,"2021-03-12T17:02:37.744Z	58558457-297d-4ad4-9be4-2d593ee7825f	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1792',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568557782,"2021-03-12T17:02:37.782Z	58558457-297d-4ad4-9be4-2d593ee7825f	INFO	triggered coldstart
+"
+1615568557990,"2021-03-12T17:02:37.986Z	02aac863-7ce1-4f35-b898-142741bff027	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1280',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568558038,"2021-03-12T17:02:38.038Z	02aac863-7ce1-4f35-b898-142741bff027	INFO	triggered coldstart
+"
+1615568558392,"2021-03-12T17:02:38.392Z	fddbd32c-124f-48a0-a2df-8cd1c8717715	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1024',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568558427,"2021-03-12T17:02:38.427Z	fddbd32c-124f-48a0-a2df-8cd1c8717715	INFO	triggered coldstart
+"
+1615568558680,"2021-03-12T17:02:38.680Z	49645347-b606-4ada-80c6-15162cb930f0	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-3008',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568558721,"2021-03-12T17:02:38.720Z	49645347-b606-4ada-80c6-15162cb930f0	INFO	triggered coldstart
+"
+1615568558988,"2021-03-12T17:02:38.988Z	c0d9cfc8-3147-4058-96ac-75067651e772	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2816',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568559028,"2021-03-12T17:02:39.028Z	c0d9cfc8-3147-4058-96ac-75067651e772	INFO	triggered coldstart
+"
+1615568559486,"2021-03-12T17:02:39.486Z	1c929798-eb7c-420c-a294-80006779db58	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2432',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568559519,"2021-03-12T17:02:39.519Z	1c929798-eb7c-420c-a294-80006779db58	INFO	triggered coldstart
+"
+1615568560170,"2021-03-12T17:02:40.167Z	7c09ea7b-2821-4743-a6db-0938277413af	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2240',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568560229,"2021-03-12T17:02:40.228Z	7c09ea7b-2821-4743-a6db-0938277413af	INFO	triggered coldstart
+"
+1615568560405,"2021-03-12T17:02:40.405Z	e9fc93f3-3d19-40ec-accd-2d22c05c74fd	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-256',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568560442,"2021-03-12T17:02:40.442Z	e9fc93f3-3d19-40ec-accd-2d22c05c74fd	INFO	triggered coldstart
+"
+1615568560450,"2021-03-12T17:02:40.450Z	2271e739-00e0-442f-882f-db65ec244053	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-2048',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568560493,"2021-03-12T17:02:40.493Z	2271e739-00e0-442f-882f-db65ec244053	INFO	triggered coldstart
+"
+1615568560520,"2021-03-12T17:02:40.520Z	47c1c0f4-229b-458e-8352-493eff699676	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1152',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568560553,"2021-03-12T17:02:40.553Z	47c1c0f4-229b-458e-8352-493eff699676	INFO	triggered coldstart
+"
+1615568564301,"2021-03-12T17:02:44.301Z	08988e0f-1302-4335-9206-246f8904ef21	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-128',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568564339,"2021-03-12T17:02:44.339Z	08988e0f-1302-4335-9206-246f8904ef21	INFO	triggered coldstart
+"
+1615568567407,"2021-03-12T17:02:47.407Z	35672117-143c-4e1a-ae97-4542c08f68b7	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-512',
+  interval: 360,
+  coldstarts: 5
+}
+"
+1615568567441,"2021-03-12T17:02:47.441Z	35672117-143c-4e1a-ae97-4542c08f68b7	INFO	triggered coldstart
+"
+1615568679263,"2021-03-12T17:04:39.263Z	690c4921-dba3-4195-b184-52b6aa3b87f6	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1536',
+  interval: 300,
+  coldstarts: 3
+}
+"
+1615568679306,"2021-03-12T17:04:39.306Z	690c4921-dba3-4195-b184-52b6aa3b87f6	INFO	triggered coldstart
+"
+1615568917957,"2021-03-12T17:08:37.956Z	5104e44a-c5f1-45d7-850b-019537140581	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1408',
+  interval: 360,
+  coldstarts: 6
+}
+"
+1615568917995,"2021-03-12T17:08:37.995Z	5104e44a-c5f1-45d7-850b-019537140581	INFO	triggered coldstart
+"
+1615568918035,"2021-03-12T17:08:38.035Z	a6cc2f58-b373-4f60-adc0-56ce4b3be00f	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1792',
+  interval: 360,
+  coldstarts: 6
+}
+"
+1615568918066,"2021-03-12T17:08:38.066Z	a6cc2f58-b373-4f60-adc0-56ce4b3be00f	INFO	triggered coldstart
+"
+1615568918254,"2021-03-12T17:08:38.254Z	422bab6c-89a2-4820-8646-68a65c5d64ab	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1280',
+  interval: 360,
+  coldstarts: 6
+}
+"
+1615568918293,"2021-03-12T17:08:38.292Z	422bab6c-89a2-4820-8646-68a65c5d64ab	INFO	triggered coldstart
+"
+1615568918668,"2021-03-12T17:08:38.668Z	9467e340-2aa6-4107-a49e-5318abaf4c23	INFO	{
+  target: 'when-will-i-coldstart-dev-system-under-test-1024',
+  interval: 360,
+  coldstarts: 6
+}
+"
+1615568918706,"2021-03-12T17:08:38.706Z	9467e340-2aa6-4107-a49e-5318abaf4c23	INFO	triggered coldstart
+"
