@@ -38,7 +38,8 @@ module.exports.handler = co.wrap(function*(input, context, callback) {
     console.log("triggered coldstart")
 
     output.coldstarts = (output.coldstarts || 0) + 1
-
+	console.log(`Warmstart count: ${res.isColdstart}`)
+	console.log(output.coldstarts)
     callback(null, output)
   } else {
     //console.log("not a coldstart, extending interval by 1 min")
