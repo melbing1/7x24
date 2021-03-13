@@ -25,7 +25,7 @@ async function main() {
       stateMachineArn: env("STATE_MACHINE_ARN"),
       input: JSON.stringify({
         target: lambdaName,
-        interval: 100,
+        interval: 300,
         coldstarts: 0
       }),
       name: sfName
