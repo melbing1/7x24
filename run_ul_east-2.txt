@@ -1,0 +1,35 @@
+[2021-03-12T00:53:43.395Z]  INFO: app/10324 on Computer.local: start
+[2021-03-12T00:53:43.397Z]  INFO: app/10324 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-east-2:340585199380:stateMachine:benchmarkStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-128\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-128-03122021T0053"
+    }
+[2021-03-12T00:53:43.421Z]  INFO: app/10324 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-east-2:340585199380:stateMachine:benchmarkStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-1024\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-1024-03122021T0053"
+    }
+[2021-03-12T00:53:43.422Z]  INFO: app/10324 on Computer.local: 
+    params: {
+      "stateMachineArn": "arn:aws:states:us-east-2:340585199380:stateMachine:benchmarkStateMachine",
+      "input": "{\"target\":\"when-will-i-coldstart-dev-system-under-test-3008\",\"interval\":600,\"coldstarts\":0}",
+      "name": "when-will-i-coldstart-dev-system-under-test-3008-03122021T0053"
+    }
+[2021-03-12T00:53:43.423Z]  INFO: app/10324 on Computer.local: done
+[2021-03-12T00:53:43.647Z]  INFO: app/10324 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-east-2:340585199380:execution:benchmarkStateMachine:when-will-i-coldstart-dev-system-under-test-128-03122021T0053",
+      "startDate": "2021-03-12T00:53:43.684Z"
+    }
+[2021-03-12T00:53:43.648Z]  INFO: app/10324 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-east-2:340585199380:execution:benchmarkStateMachine:when-will-i-coldstart-dev-system-under-test-3008-03122021T0053",
+      "startDate": "2021-03-12T00:53:43.688Z"
+    }
+[2021-03-12T00:53:43.652Z]  INFO: app/10324 on Computer.local: 
+    sfExecutionResult: {
+      "executionArn": "arn:aws:states:us-east-2:340585199380:execution:benchmarkStateMachine:when-will-i-coldstart-dev-system-under-test-1024-03122021T0053",
+      "startDate": "2021-03-12T00:53:43.692Z"
+    }
