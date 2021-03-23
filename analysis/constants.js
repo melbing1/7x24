@@ -1,5 +1,5 @@
 require("dotenv").config()
- const MEM_SIZES = [
+ /* const MEM_SIZES = [
   "128",
   "256",
   "512",
@@ -16,13 +16,11 @@ require("dotenv").config()
   "2624",
   "2816",
   "3008"
-] 
+] */
 
-/*const MEM_SIZES = [
-	"128",
-	"1024",
-	"3008"
-]*/
+const MEM_SIZES = [
+	"2048"
+]
 
 const env = key => {
   return process.env[key]
