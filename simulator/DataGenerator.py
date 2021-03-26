@@ -2,11 +2,11 @@
 import sys          # System (used to take arguments)
 import numpy as np  # Poisson Distribution
 import matplotlib.pyplot as plt
-# SOurce : https://numpy.org/doc/stable/reference/random/generated/numpy.random.poisson.html
+# Source : https://numpy.org/doc/stable/reference/random/generated/numpy.random.poisson.html
 
 # Check to ensure the correct number of arguments
 if len(sys.argv) < 5:
-    # The symbols are excape charadcters to make the text red
+    # The symbols are escape characters to make the text red
     print('\033[91m' + "ERROR - Read the start of the code to see the 4 arguments needed" + '\033[0m')
     exit()
 
@@ -27,7 +27,7 @@ except:
     exit()
 
 # Makes an numpy array of random values following a poisson distribution
-distribution = np.random.poisson(mean, size)
+distribution = np.random.poisson(mean, size)  # Change this to time between
 
 # Copying the variable so we don't ruin the oringinal in case we want to show the graph
 # Also the numpy arrays are different so we have to convert it and sort it so we can use it
@@ -72,7 +72,7 @@ for x in range(1, simulation_length + 1):
 # Show result:
 print("*********RESULTS*********")
 print("Cold Starts: " + str(len(cold_starts)))
-print("Warm Starts: " + str(len(warm_starts)))
+print("Warm Starts: " + str(len(warm_starts)))  # Add the total idle time
 print("*************************")
 
 # This should run last, otherwise the rest of gthe progran won't run until you close the graph
