@@ -7,3 +7,4 @@ package-lock.json
 .serverless
 .autoenv.zsh
 .DS_Store
+.vscode/settings.json
