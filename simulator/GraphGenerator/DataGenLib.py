@@ -31,16 +31,18 @@ def generatePoissonData(simulation_length, idle_time, mean):
     # Copying the variable so we don't ruin the oringinal in case we want to show the graph
     # Also the numpy arrays are different so we have to convert it and sort it so we can use it
     data = distribution.tolist()
-    # Run the simulator with the generated data
-    return runSimulation(simulation_length, idle_time, data)
+    # Run the generated data to feed to the simulator
+    return data
+    # return runSimulation(simulation_length, idle_time, data)
 
 
 def generateConsistentData(simulation_length, idle_time, mean):
     # Create a data list with all the same values occuring more than enough times
     data = []
     data.extend(repeat(mean, simulation_length))
-    # Run the simulator with the generated data
-    return runSimulation(simulation_length, idle_time, data)
+    # Run the generated data to feed to the simulator
+    return data
+    # return runSimulation(simulation_length, idle_time, data)
 
 # Input:
 #   simulation_length: the amount of time units the sumulation should run
