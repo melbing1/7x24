@@ -50,23 +50,22 @@ for x in range(0, simulation_length + 1):
 yAxis = []
 # Generate the data for the Y-Axis
 if (data_model == 1):
-    for x in range(0, simulation_length + 1):
-        (cold_starts, warm_starts, idle, pointless) = DataGen.generatePoissonData(
-            simulation_length, x, mean)
-        cost = float(len(cold_starts)) * cold_start_cost + \
-            float(idle) * idle_time_cost
-        yAxis.append(cost)
+    data = DataGen.generatePoissonData(simulation_length, x, mean)
 
 elif (data_model == 2):
-    for x in range(0, simulation_length + 1):
-        (cold_starts, warm_starts, idle,
-         pointless) = DataGen.generateConsistentData(simulation_length, x, mean)
-        cost = float(len(cold_starts)) * cold_start_cost + \
-            float(idle) * idle_time_cost
-        yAxis.append(cost)
+    data = DataGen.generateConsistentData(simulation_length, x, mean)
+
 
 else:
     print("An unknown error has occured")
+    exit()
+
+for x in range(0, simulation_length + 1):
+    (cold_starts, warm_starts, idle, pointless) = DataGen.runSimulation(
+        simulation_length, x, data)
+    cost = float(len(cold_starts)) * cold_start_cost + \
+        float(idle) * idle_time_cost
+    yAxis.append(cost)
 
 # Now we graph the data
 
