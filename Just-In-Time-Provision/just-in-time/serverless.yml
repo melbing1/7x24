@@ -1,0 +1,71 @@
+service: warmup
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+
+  stage: dev
+  region: us-east-1
+
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - 'lambda:InvokeFunction'
+      Resource: 
+        - !Sub arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${self:service}-${opt:stage, self:provider.stage}-*
+    - Effect: "Allow"
+      Action: 
+        - "cloudwatch:PutMetricData"
+      Resource: "*"
+
+plugins:
+  - serverless-plugin-warmup
+custom:
+  warmup:
+    functionWarmer:
+      enabled: false # if true, plugin warms system; if false, does not 
+      role: IamRoleLambdaExecution
+      events:
+#        - schedule: 'cron(* 1 ? * * *)'
+              #rate: rate(35 minutes) # 5 minutes is default scheduled time
+      
+      # plugin does not run immediately upon "serverless deploy"
+      prewarm: false # warms immediately upon "serverless deploy"
+
+# list all functions below
+functions:
+  schedule_test:
+    handler: test1.test1
+    memorySize: 1024
+    # The `events` block defines how to trigger the handler.helloWorld code
+    events:
+      - http:
+          path: hello-world
+          method: get
+          cors: true
+      #- schedule: 'cron(*/20 * * * ? *)'
+      #- schedule: 'cron(* 3 */5 * ? *)'
+      #- schedule: 'cron(15 10 * 5 ? *)'
+      #- schedule: 'cron(0 0 1/2 5 ? *)'
+      #- schedule: 'cron(0 0 1 1 ? 2023/2)'
+      #- schedule: 'cron(0 */5 1 * ? *)'
+      
+    warmup:
+      functionWarmer:
+        enabled: false # if not specified, defaluts to false
+#  test2_east1:    
+#    handler: test2.test2
+#    memorySize: 512
+#    # The `events` block defines how to trigger the handler.helloWorld code
+#    events:
+#      - schedule: 'cron(* 4 ? * * *)'
+#      - http:
+#          path: hello-world
+#          method: get
+#          cors: true
+#    warmup:
+#      functionWarmer:
+#        enabled: false # if not specified, defaluts to false
