@@ -2,17 +2,23 @@
 
 ![HofstraLogo](media/HofstraLogo.png)
 
-**This repository contains the code and tools related to the 7x24 challenge presentaion by the Hofstra University team.**
+**This repository contains the code and tools related to the 2021 7x24 challenge presentation by the Hofstra University team.**
 
-The benchmarking code is based on the excellent [benchmarking tool](https://github.com/kevinslin/lambda-when-will-i-coldstart) by [Kevin Lin](https://github.com/kevinslin)
+The benchmarking code is based on the excellent [benchmarking tool](https://github.com/kevinslin/lambda-when-will-i-coldstart) by [Kevin Lin](https://github.com/kevinslin).
+
+The "Just In Time Provision" code is based on the [Serverless WarmUp Plugin](https://github.com/juanjoDiaz/serverless-plugin-warmup) by [Juanjo Diaz](https://github.com/juanjoDiaz).
 
 
 **Team**
 
-Matthew Elbing
-Mark Kornfeld
-Michael Raymond
-Jason Jackrel
+- Matthew Elbing
+  - Computer Science and Cybersecurity
+- Mark Kornfeld
+  - Computer Science (Concentration in Networking and Cybersecurity)
+- Michael Raymond
+  - Computer Science and Cybersecurity
+- Jason Jackrel
+  - Computer Engineering
 
 **Advisor**
 
