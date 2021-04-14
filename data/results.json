@@ -1,0 +1,192 @@
+{
+  config: Config {
+    credentials: SharedIniFileCredentials {
+      expired: false,
+      expireTime: null,
+      refreshCallbacks: [],
+      accessKeyId: 'AKIAU6TDVW4KDT4KTVAY',
+      sessionToken: undefined,
+      filename: undefined,
+      profile: 'default',
+      disableAssumeRole: true,
+      preferStaticCredentials: false,
+      tokenCodeFn: null,
+      httpOptions: null
+    },
+    credentialProvider: CredentialProviderChain {
+      providers: [Array],
+      resolveCallbacks: []
+    },
+    region: 'us-east-1',
+    logger: null,
+    apiVersions: {},
+    apiVersion: null,
+    endpoint: undefined,
+    httpOptions: { timeout: 120000 },
+    maxRetries: undefined,
+    maxRedirects: 10,
+    paramValidation: true,
+    sslEnabled: true,
+    s3ForcePathStyle: false,
+    s3BucketEndpoint: false,
+    s3DisableBodySigning: true,
+    s3UsEast1RegionalEndpoint: 'legacy',
+    s3UseArnRegion: undefined,
+    computeChecksums: true,
+    convertResponseTypes: true,
+    correctClockSkew: false,
+    customUserAgent: null,
+    dynamoDbCrc32: true,
+    systemClockOffset: 0,
+    signatureVersion: null,
+    signatureCache: true,
+    retryDelayOptions: {},
+    useAccelerateEndpoint: false,
+    clientSideMonitoring: false,
+    endpointDiscoveryEnabled: undefined,
+    endpointCacheSize: 1000,
+    hostPrefixEnabled: true,
+    stsRegionalEndpoints: 'legacy'
+  }
+}
+[2021-01-28T22:40:51.255Z]  INFO: app/17713 on Computer.local: start
+[2021-01-28T22:40:51.256Z]  INFO: app/17713 on Computer.local:  (ctx=getStepFunctions)
+    params: {
+      "statusFilter": "SUCCEEDED",
+      "maxResults": 100,
+      "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine"
+    }
+[2021-01-28T22:40:51.489Z] DEBUG: app/17713 on Computer.local:  (ctx=getStepFunctions)
+    functions: {
+      "executions": [
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-128-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-128-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.053Z",
+          "stopDate": "2021-01-28T22:35:21.012Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-256-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-256-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.039Z",
+          "stopDate": "2021-01-28T22:35:20.064Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-1856-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-1856-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.055Z",
+          "stopDate": "2021-01-28T22:35:20.023Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-2624-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-2624-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.087Z",
+          "stopDate": "2021-01-28T22:35:19.518Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-3008-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-3008-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.070Z",
+          "stopDate": "2021-01-28T22:35:19.211Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-2816-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-2816-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.077Z",
+          "stopDate": "2021-01-28T22:35:18.654Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-1152-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-1152-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.076Z",
+          "stopDate": "2021-01-28T22:35:18.535Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-1280-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-1280-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.050Z",
+          "stopDate": "2021-01-28T22:35:18.249Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-2048-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-2048-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.059Z",
+          "stopDate": "2021-01-28T22:35:17.309Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-512-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-512-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.051Z",
+          "stopDate": "2021-01-28T22:35:17.087Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-1536-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-1536-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.065Z",
+          "stopDate": "2021-01-28T22:35:16.222Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-2240-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-2240-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.077Z",
+          "stopDate": "2021-01-28T22:35:15.690Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-1792-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-1792-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.058Z",
+          "stopDate": "2021-01-28T22:35:14.588Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-1024-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-1024-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.039Z",
+          "stopDate": "2021-01-28T22:35:14.123Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-2432-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-2432-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.070Z",
+          "stopDate": "2021-01-28T22:35:13.145Z"
+        },
+        {
+          "executionArn": "arn:aws:states:us-east-1:340585199380:execution:benchmarkMachine:when-will-i-coldstart-dev-system-under-test-1408-01282021T2104",
+          "stateMachineArn": "arn:aws:states:us-east-1:340585199380:stateMachine:benchmarkMachine",
+          "name": "when-will-i-coldstart-dev-system-under-test-1408-01282021T2104",
+          "status": "SUCCEEDED",
+          "startDate": "2021-01-28T21:05:00.060Z",
+          "stopDate": "2021-01-28T22:35:13.054Z"
+        }
+      ]
+    }
+[2021-01-28T22:40:51.490Z] DEBUG: app/17713 on Computer.local:  (ctx=getStartStop, functions=[])
