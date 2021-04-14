@@ -1,44 +1,19 @@
-Make sure you run `npm install` when you clone the repo to install the node dependencies (there are many)
+**This repository contains the code and tools related to the 7x24 challenge presentaion by the Hofstra University team.**
 
-Modified src for the lambda-coldstart-time 
+The benchmarking code is based on the excellent [benchmarking tool](https://github.com/kevinslin/lambda-when-will-i-coldstart) by [Kevin Lin](https://github.com/kevinslin)
 
-**Do not make this repo public until the ARN number has been stripped from stepFunction.js**
 
---------------
-# lambda-coldstart-time
-Experiment to find out how long your function would need to be idle for for it to be recycled
+**Team**
 
-# Setup
+Matthew Elbing
+Mark Kornfeld
+Michael Raymond
+Jason Jackrel
 
-1. Setup lambda functions using serverless
+**Advisor**
 
-```
-sls deploy
+Dr. Jianchen Shan Ph.D, Assistant Professor
 
-```
+**Affiliation**
 
-2.  Create a StepFunction in region you plan on performing exeriment in using the configuration in `stepfunction.json`. Make sure you update `Resource` with the ARN of the corresponding lambda function that you created in step 1
-
-3. Create a `.env` file in the root directory. Add the ARN of your state function to it
-
-```
-STATE_MACHINE_ARN={YOUR_SF_RUN}
-```
-
-3. Run the experiment
-
-```
-node analysis/run.js| bunyan
-```
-
-4. Gather results
-- add the following to your `.env` file. by default, this will be the {month}{day}{year}T{hour}{minute} that the Lambda function was run on
-```
-FUNCTION_SUFFIX={YOUR_LAMBDA_SUFFIX}
-```
-
-- run results (by default, output is stored in `/tmp/out.csv`)
-```
-node analysis/gatherResults.js| bunyan
-```
-
+Hofstra University
