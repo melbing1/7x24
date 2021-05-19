@@ -2,6 +2,8 @@
 
 ![HofstraLogo](media/HofstraLogo.png)
 
+## Our presentation is now available on YouTube - [watch it here!](https://youtu.be/Dh_75Z3wSHI)
+
 **This repository contains the code and tools related to the 2021 7x24 challenge presentation by the Hofstra University team.**
 
 The benchmarking code is based on the excellent [benchmarking tool](https://github.com/kevinslin/lambda-when-will-i-coldstart) by [Kevin Lin](https://github.com/kevinslin).
